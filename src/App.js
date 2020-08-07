@@ -5,6 +5,7 @@ function App() {
     <div className="App">
       <h1>Hello World!</h1>
       <span>I'm Doris from Korea</span>
+      <p>This page is being updated...</p>
     </div>
   );
 }
