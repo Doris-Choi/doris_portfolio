@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/doris_portfolio/static/js/main.407e1db2.chunk.js",
-    "main.js.map": "/doris_portfolio/static/js/main.407e1db2.chunk.js.map",
+    "main.js": "/doris_portfolio/static/js/main.45e02aff.chunk.js",
+    "main.js.map": "/doris_portfolio/static/js/main.45e02aff.chunk.js.map",
     "runtime-main.js": "/doris_portfolio/static/js/runtime-main.12c8cf94.js",
     "runtime-main.js.map": "/doris_portfolio/static/js/runtime-main.12c8cf94.js.map",
     "static/js/2.091db4f9.chunk.js": "/doris_portfolio/static/js/2.091db4f9.chunk.js",
     "static/js/2.091db4f9.chunk.js.map": "/doris_portfolio/static/js/2.091db4f9.chunk.js.map",
     "index.html": "/doris_portfolio/index.html",
-    "precache-manifest.04f5bf8d14aff8acdabb6a133472370f.js": "/doris_portfolio/precache-manifest.04f5bf8d14aff8acdabb6a133472370f.js",
+    "precache-manifest.09c36f6588c4277539a3d8175dc9ef79.js": "/doris_portfolio/precache-manifest.09c36f6588c4277539a3d8175dc9ef79.js",
     "service-worker.js": "/doris_portfolio/service-worker.js",
     "static/js/2.091db4f9.chunk.js.LICENSE.txt": "/doris_portfolio/static/js/2.091db4f9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.12c8cf94.js",
     "static/js/2.091db4f9.chunk.js",
-    "static/js/main.407e1db2.chunk.js"
+    "static/js/main.45e02aff.chunk.js"
   ]
 }
