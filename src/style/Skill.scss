@@ -1,0 +1,31 @@
+.Skill {
+  width: 1000px;
+  & > div {
+    display: flex;
+    margin: 0 auto;
+    & > h3 {
+      text-align: center;
+    }
+  }
+  .skill_icon {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    // text-indent: -9999px;
+    position: relative;
+    &:last-child {
+      margin-right: 0;
+    }
+    &:hover::before {
+      content: '';
+      background: rgba(0, 0, 0, 0.3);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

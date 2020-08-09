@@ -1,11 +1,18 @@
 import React from 'react';
+import Home from './components/Home';
+import About from './components/About';
+import Skill from './components/Skill';
+import Project from './components/Project';
+import Contact from './components/Contact';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World!</h1>
-      <span>I'm Doris from Korea</span>
-      <p>This page is being updated...</p>
+      <Home />
+      <About />
+      <Skill />
+      <Project />
+      <Contact />
     </div>
   );
 }
