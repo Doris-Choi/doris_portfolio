@@ -11,24 +11,39 @@
     }
   }
   .SkillIcon {
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     margin-right: 20px;
-    border: 1px solid #000;
     border-radius: 8px;
-    text-indent: -9999px;
     position: relative;
+
+    .status--hover {
+      opacity: 0;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+      border-radius: 8px;
+      color: #fff;
+      font-size: 12.5px;
+      text-align: center;
+
+      & > div:first-child {
+        font-size: 13.5px;
+        font-weight: 700;
+      }
+    }
     &:last-child {
       margin-right: 0;
     }
-    &:hover::before {
-      content: '';
-      background: rgba(0, 0, 0, 0.4);
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
+    &:hover {
+      .status--hover {
+        opacity: 1;
+      }
     }
   }
 }
