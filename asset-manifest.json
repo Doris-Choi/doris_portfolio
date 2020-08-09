@@ -1,19 +1,35 @@
 {
   "files": {
-    "main.js": "/doris_portfolio/static/js/main.45e02aff.chunk.js",
-    "main.js.map": "/doris_portfolio/static/js/main.45e02aff.chunk.js.map",
+    "main.css": "/doris_portfolio/static/css/main.7f81997e.chunk.css",
+    "main.js": "/doris_portfolio/static/js/main.2010436d.chunk.js",
+    "main.js.map": "/doris_portfolio/static/js/main.2010436d.chunk.js.map",
     "runtime-main.js": "/doris_portfolio/static/js/runtime-main.12c8cf94.js",
     "runtime-main.js.map": "/doris_portfolio/static/js/runtime-main.12c8cf94.js.map",
     "static/js/2.091db4f9.chunk.js": "/doris_portfolio/static/js/2.091db4f9.chunk.js",
     "static/js/2.091db4f9.chunk.js.map": "/doris_portfolio/static/js/2.091db4f9.chunk.js.map",
     "index.html": "/doris_portfolio/index.html",
-    "precache-manifest.09c36f6588c4277539a3d8175dc9ef79.js": "/doris_portfolio/precache-manifest.09c36f6588c4277539a3d8175dc9ef79.js",
+    "precache-manifest.8c67742cc43e5522eaccc5d28ec9f203.js": "/doris_portfolio/precache-manifest.8c67742cc43e5522eaccc5d28ec9f203.js",
     "service-worker.js": "/doris_portfolio/service-worker.js",
-    "static/js/2.091db4f9.chunk.js.LICENSE.txt": "/doris_portfolio/static/js/2.091db4f9.chunk.js.LICENSE.txt"
+    "static/css/main.7f81997e.chunk.css.map": "/doris_portfolio/static/css/main.7f81997e.chunk.css.map",
+    "static/js/2.091db4f9.chunk.js.LICENSE.txt": "/doris_portfolio/static/js/2.091db4f9.chunk.js.LICENSE.txt",
+    "static/media/C.png": "/doris_portfolio/static/media/C.a47c250d.png",
+    "static/media/CSS.png": "/doris_portfolio/static/media/CSS.81a3d5f6.png",
+    "static/media/Firebase.png": "/doris_portfolio/static/media/Firebase.9d2f6853.png",
+    "static/media/HTML.png": "/doris_portfolio/static/media/HTML.75f6aa54.png",
+    "static/media/Linux.png": "/doris_portfolio/static/media/Linux.a22f3ab5.png",
+    "static/media/MySQL.png": "/doris_portfolio/static/media/MySQL.269ff813.png",
+    "static/media/Nodejs.png": "/doris_portfolio/static/media/Nodejs.77118b40.png",
+    "static/media/Python.png": "/doris_portfolio/static/media/Python.94a629c9.png",
+    "static/media/R.png": "/doris_portfolio/static/media/R.c839dc03.png",
+    "static/media/React.png": "/doris_portfolio/static/media/React.1e5b28ac.png",
+    "static/media/Redux.png": "/doris_portfolio/static/media/Redux.62cc7d7a.png",
+    "static/media/Sass.png": "/doris_portfolio/static/media/Sass.12d15f2e.png",
+    "static/media/Swift.png": "/doris_portfolio/static/media/Swift.1fe04ffa.png"
   },
   "entrypoints": [
     "static/js/runtime-main.12c8cf94.js",
     "static/js/2.091db4f9.chunk.js",
-    "static/js/main.45e02aff.chunk.js"
+    "static/css/main.7f81997e.chunk.css",
+    "static/js/main.2010436d.chunk.js"
   ]
 }
