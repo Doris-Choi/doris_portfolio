@@ -1,42 +1,57 @@
 import React from 'react';
 import '../style/Skill.scss';
 
+function SkillIcon({ name }) {
+  const style = {
+    backgroundColor: '#fff',
+    backgroundImage: `url(${require('../style/logo/' + name + '.png')})`,
+    backgroundSize: '100%',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+  };
+  return (
+    <div className={`SkillIcon ${name}`} style={style}>
+      {name}
+    </div>
+  );
+}
 function Skill() {
   return (
     <div className="Skill">
       <h2>SKILLs</h2>
       <div>
         <h3>LANGUAGE</h3>
-        <div class="skill_icon python">Python</div>
-        <div class="skill_icon javascript">JavaScript</div>
-        <div class="skill_icon c">C</div>
+        <SkillIcon name="Python" />
+        <SkillIcon name="JavaScript" />
+        <SkillIcon name="C" />
       </div>
       <div>
         <h3>WEB</h3>
-        <div class="skill_icon html">HTML</div>
-        <div class="skill_icon css">CSS</div>
-        <div class="skill_icon react">React</div>
+        <SkillIcon name="HTML" />
+        <SkillIcon name="CSS" />
+        <SkillIcon name="Sass" />
+        <SkillIcon name="React" />
       </div>
       <div>
         <h3>BACK?</h3>
-        <div class="skill_icon nodejs">Node.js</div>
+        <SkillIcon name="Nodejs" />
       </div>
       <div>
         <h3>DATABASE</h3>
-        <div class="skill_icon mysql">MySQL</div>
+        <SkillIcon name="MySQL" />
       </div>
       <div>
         <h3>ETC</h3>
-        <div class="skill_icon github">GitHub</div>
-        <div class="skill_icon linux">Linux</div>
+        <SkillIcon name="GitHub" />
+        <SkillIcon name="Linux" />
       </div>
       <div>
         <h3>DATA ANALYSIS</h3>
-        <div class="skill_icon r">R</div>
-        <div class="skill_icon ga">Google Analytics</div>
-        <div class="skill_icon fb">Firebase</div>
-        <div class="skill_icon ml">Machine Learning</div>
-        <div class="skill_icon nn">Neural Networks</div>
+        <SkillIcon name="R" />
+        <SkillIcon name="GA" />
+        <SkillIcon name="Firebase" />
+        {/* <SkillIcon name="ML" /> */}
+        {/* <SkillIcon name="NN" /> */}
       </div>
     </div>
   );
